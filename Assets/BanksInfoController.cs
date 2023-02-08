@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System;
+using System.Globalization;
+
 
 public class BanksInfoController : MonoBehaviour
 {
@@ -63,6 +66,13 @@ public class BanksInfoController : MonoBehaviour
     // Update is called once per frame
     public void UpdateUI()
     {
+        CultureInfo culture = new CultureInfo("es-ES");
+        DateTime today = DateTime.Now;
+        DateTime lastMonth = today.AddMonths(-1);
+        DateTime twoMonth = today.AddMonths(-2);
+        lastMonthTxt.text = lastMonth.ToString("MMMM");
+        LastMonth2Txt.text = twoMonth.ToString("MMMM");
+
         BLC.bankInfo = SingletonManager.singleton.DM.selectedBank;
 
         TotalDia.text = SingletonManager.singleton.CM.total_day.ToString();

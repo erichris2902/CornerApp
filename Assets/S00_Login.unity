@@ -2635,8 +2635,8 @@ MonoBehaviour:
   TwoMonthsAgo: {fileID: 487437887}
   nextDay: {fileID: 1719794435}
   lastDay: {fileID: 1916931016}
-  lastMonthTxt: {fileID: 0}
-  LastMonth2Txt: {fileID: 0}
+  lastMonthTxt: {fileID: 1036013694}
+  LastMonth2Txt: {fileID: 1616497261}
   pendientesBtn: {fileID: 223370524}
 --- !u!1 &447253811
 GameObject:
@@ -11401,7 +11401,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 16
   m_HorizontalAlignment: 4
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -16279,7 +16279,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Novimebre
+  m_text: novimebre
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2be06a255c1990046b50f9159460d7ac, type: 2}
   m_sharedMaterial: {fileID: 6716021659079915522, guid: 2be06a255c1990046b50f9159460d7ac, type: 2}
@@ -16312,7 +16312,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 16
   m_HorizontalAlignment: 4
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -18842,7 +18842,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 123.9, y: 319}
+  m_AnchoredPosition: {x: 123.8999, y: 319}
   m_SizeDelta: {x: 150.86, y: 150.86}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1916931016
